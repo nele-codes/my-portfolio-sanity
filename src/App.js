@@ -8,6 +8,7 @@ import NavBar from './components/NavBar'
 
 function App() {
   return (
+    <div className="w-full h-full backgroundEffects">
     <BrowserRouter>
     <NavBar />
       <Routes>
@@ -18,6 +19,7 @@ function App() {
         <Route element={<Project/>} path='/project' />
       </Routes>
     </BrowserRouter>
+    </div>
   )
 }
 

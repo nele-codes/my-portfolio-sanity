@@ -18,3 +18,7 @@
 .home-name {
   font-size: 150px;
 }
+
+.backgroundEffects {
+  background: linear-gradient(to bottom, #7927b2, #fb3182);
+}
